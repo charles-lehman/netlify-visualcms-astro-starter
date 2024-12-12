@@ -10,7 +10,7 @@
         "astro": "astro",
         "tinadev": "tinacms dev -c \"astro dev\"",
         "tinabuild": "tinacms build && astro build",
-        "tinastart": "tinacms build && astro start",
+        "tinastart": "tinacms build && astro build && astro preview",
         "tnadev": "tinacms dev -c \"netlify dev\""
     },
     "dependencies": {
